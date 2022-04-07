@@ -1,0 +1,128 @@
+/*Body Format */
+body {
+    position: absolute;
+    background-color: #bebdba;
+    background-image: url("background-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    font-family: "Trirong", serif;
+    
+      
+    
+  }
+  
+  h1 {
+	font-family: Arial;
+	font-size: 24pt;
+    padding: 5px;
+    vertical-align: top;
+    
+
+    
+
+}
+  h2{
+    
+    font-family: Arial ;
+    font-size:20 ;
+    text-align: center;
+    
+}
+   /* Table 1*/
+  .center ,th,td{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-family: Arial ;
+    font-size: 18pt;
+    border: 1px solid black;
+  }
+  /* Table 2*/
+  .bottom{
+    margin-bottom: 100cm;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-family: "Trirong", serif;
+    font-size: 16pt;
+    border: 1px solid black;
+  }
+/*Dotlines */
+  .new {
+    border-top: 10px dotted #F3E9DD;
+    margin: auto;
+    width: 40%;
+  }
+    /*Profile Paragraph */
+  .p1{
+    font-size: 16pt;
+	font-style: italic ;
+	font-family:Arial, Helvetica, sans-serif;
+	color:rgba(12, 11, 7, 0.842);
+    text-align: center;
+    margin: 20px;
+    padding: 20px;}
+/*Profile Image */
+    .profile{
+    width: 150px;
+      height: 150px;
+      margin: 20px;
+      padding: 20px;
+}
+
+.button {
+    background-color: #df7228;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1350px 200px;
+    cursor: pointer;
+    position:absolute; 
+    top: 100px;
+    
+    
+    
+  }
+      
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  
